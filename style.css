@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-  line-height: 1.8em;
-  font-family: 'Raleway', sans-serif;
 }
 
 article {
@@ -30,9 +28,7 @@ header section {
 }
 
 header img {
-  img: url('avatar.jpg');
-  border-radius: 50%;
-  border: 8px solid black;
+  
 }
 
 h1 {
