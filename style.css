@@ -31,7 +31,7 @@ header section {
 }
 
 header img {
-  background-img: url('avatar.jpg');
+  img: url('avatar.jpg');
   border-radius: 50%;
   border: 8px solid black;
 }
