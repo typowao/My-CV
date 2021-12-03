@@ -25,11 +25,13 @@ header {
   text-align: center;
   background-image: url(./img/bg.jpg);
   background-size: cover;
+  background position: fixed;
   color: white;
 }
 
 header section {
   margin: 0 auto;
+  max-width 640px;
 }
 
 header img {
@@ -39,6 +41,7 @@ header img {
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
 }
 
 main {
