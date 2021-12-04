@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-size: 16px;
-  line-hieght :1.8em;
+  line-height :1.8em;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -22,21 +22,41 @@ header, main, footer {
 
 header {
   padding: 2em;
-  text-align: center;
-  background-image: url(./img/bg.jpg);
+  text-align: right;
+  background-image: url(./img/tlo-strona.png);
   background-size: cover;
-  background position: fixed;
-  color: white;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  color: white; 
 }
 
 header section {
   margin: 0 auto;
-  max-width 640px;
+  max-width: 640px;
+  text-align: justify;
 }
 
 header img {
   border-radius: 50%;
   max-width: 150px;
+  margin-right: 5%; 
+}
+
+.fab{
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.fa-linkedin-in:before {
+  content: "\f0e1";
 }
 
 h1 {
@@ -44,23 +64,106 @@ h1 {
   text-transform:  uppercase;
 }
 
+h3, h4 {
+  margin: 1em 0;
+  text-transform:  uppercase;
+  font-weight: bold;
+}
+
+.course {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #03989e;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
 main {
   max-width: 1140px;
 }
 
-.course {
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.course .title {
+.skills .kolumna {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
-.course .descrition {
+.skills .kolumna  ul, ul.job-description{
+  list-style-type: none;
 }
 
-.school span {
-  color: #A7B8BF;
+.skills .descrition {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
+
+
+ul {
+  margin: 0;
+}
+
+ul.lista-skillow {
+  list-style-type: disclosure-closed;
+  padding: 0;
+}
+ul.lista-skillow > li {
+ padding-left: 1.5em; 
+}
+ul.lista-skillow > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+
+.education {
+  text-transform: capitalize;
+}
+.education span, .experience span {
+  color: #5ba7d1;
+}
+
+
 
 footer {
- padding: 1em;
+ padding: 1em 1.2em;
+ background:#03989e;
+ color: white;
+ text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
 }
