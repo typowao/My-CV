@@ -7,6 +7,15 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  color:  #5ba7d1;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 article {
   padding:0 1em;
   margin-block-start: 1em;
@@ -44,6 +53,10 @@ header img {
   border-radius: 50%;
   max-width: 150px;
   margin-right: 2%; 
+}
+
+a .fab {
+  color: white;
 }
 
 .fab{
@@ -144,7 +157,7 @@ ul.job-description li:before {
   text-transform: capitalize;
 }
 .education span, .experience span {
-  color: #5ba7d1;
+  color: #03989e;
 }
 
 
