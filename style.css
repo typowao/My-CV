@@ -10,6 +10,8 @@ body {
 a {
   color:  #5ba7d1;
   text-decoration: none;
+  background-color: cornflowerwhite;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 a:hover {
@@ -55,9 +57,6 @@ header img {
   margin-right: 2%; 
 }
 
-a .fab {
-  color: white;
-}
 
 .fab{
   border: 1px solid white;
