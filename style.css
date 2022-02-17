@@ -163,47 +163,23 @@ ul.job-description li:before {
   color: #03989e;
 }
 
-.container{
-  padding-right: 15px;
-  padding-left: 5px;
-  margin-left: auto;
-  margin-right: auto;
+.navbar .navbar-nav{
+  border: solid transparent;
   background-color: black;
-}
-
-.navbar{
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-}
-
-.fixed-top{
   position: fixed;
-  top: 10px;
-  border-width: 0 0 1px;
-  z-index: 1030;
-}
-
-a.nav-link {
-  color:  white;
-  text-decoration: none;
-  background-color: black;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.navbar-nav{
+  top: 0px;
   margin: auto !important;
   list-style: none;
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  flex-grow: 0;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
-  align-content: space-between;
   gap: 10px;
+}
+
+a.nav-link {
+  color:  white;
+  text-decoration: none;
 }
 
 footer {
