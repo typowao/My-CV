@@ -14,7 +14,18 @@ a {
   transition: background-color 0.5s, color 0.5s;
 }
 
+b {
+  color:  white;
+  text-decoration: none;
+  background-color: cornflowerwhite;
+  transition: background-color 0.5s, color 0.5s;
+}
+
 a:hover {
+  opacity: 0.5;
+}
+
+b:hover {
   opacity: 0.5;
 }
 
@@ -159,6 +170,39 @@ ul.job-description li:before {
   color: #03989e;
 }
 
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar{
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.fixed-top{
+  position: fixed;
+  top: 10px;
+  border-width: 0 0 1px;
+  z-index: 1030;
+}
+
+.navbar-nav{
+  margin: auto !important;
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: space-between;
+  gap: 10px;
+}
 
 footer {
  padding: 1em 1.2em;
