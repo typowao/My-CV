@@ -93,6 +93,10 @@ h3, h4 {
   font-weight: bold;
 }
 
+.descrition p{
+  text-align: justify;
+}
+
 .course, .skills {
   display: -ms-flexbox;
   display: flex;
@@ -116,6 +120,7 @@ h3, h4 {
 .course .descrition p {
   padding-left: 1em;
 }
+
 
 main {
   max-width: 1140px;
