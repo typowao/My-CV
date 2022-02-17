@@ -25,10 +25,6 @@ a:hover {
   opacity: 0.5;
 }
 
-b:hover {
-  opacity: 0.5;
-}
-
 article {
   padding:0 1em;
   margin-block-start: 1em;
@@ -189,6 +185,13 @@ ul.job-description li:before {
   top: 10px;
   border-width: 0 0 1px;
   z-index: 1030;
+}
+
+a.nav-link {
+  color:  white;
+  text-decoration: none;
+  background-color: cornflowerwhite;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .navbar-nav{
